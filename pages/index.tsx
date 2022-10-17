@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   let secondsUntilRelease = midnightsRelease - currentTime;
 
   let allTooWellLength = 10 * 60;
-  let allTooWellTimes = parseInt(secondsUntilRelease / allTooWellLength);
+  let allTooWellTimes = Math.floor(secondsUntilRelease / allTooWellLength);
 
   return (
     <div>
