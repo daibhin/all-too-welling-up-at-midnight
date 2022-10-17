@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   let allTooWellTimes = Math.floor(secondsUntilRelease / allTooWellLength);
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <Head>
         <title>All Too Welling Up To Midnight</title>
         <meta
