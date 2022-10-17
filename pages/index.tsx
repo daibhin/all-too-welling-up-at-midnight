@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           How many times can you listen to the All Too Well 10 minute version
           before Midnights launches?
         </h1>
-        <div className="flex flex-1 flex-col space-y-4">
+        <div className="flex flex-1 flex-col space-y-4 items-end">
           <div className="font-black text-5xl md:text-6xl whitespace-nowrap mr-4 bg-repeat text-gradient bg-gradient-to-r from-[#4C5881] via-[#A8C3D1] to-[#A8C3D1]">
             {allTooWellTimes} times
           </div>
