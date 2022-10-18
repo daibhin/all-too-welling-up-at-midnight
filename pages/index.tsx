@@ -18,6 +18,7 @@ const Home: NextPage = () => {
           name="description"
           content="How many times can you listen to the All Too Well 10 minute version before the Midnights launch?"
         />
+        <meta property="og:image" content="/og.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
