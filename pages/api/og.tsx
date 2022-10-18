@@ -4,9 +4,9 @@ export const config = {
   runtime: "experimental-edge",
 };
 
-const font = fetch(new URL("/assets/Helvetica-Bold.TTF", import.meta.url)).then(
-  (res) => res.arrayBuffer()
-);
+const font = fetch(
+  new URL("../../assets/Helvetica-Bold.TTF", import.meta.url)
+).then((res) => res.arrayBuffer());
 
 async function OG() {
   const fontData = await font;
