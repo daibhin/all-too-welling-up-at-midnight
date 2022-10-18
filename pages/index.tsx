@@ -17,30 +17,47 @@ const Home: NextPage = () => {
         <meta
           name="description"
           content="How many times can you listen to the All Too Well 10 minute version before the Midnights launch?"
-        />
-        <meta property="og:title" content="All Too Welling Up at Midnight" />
+        ></meta>
+
+        <meta
+          property="og:url"
+          content="https://all-too-welling-up-at-midnight.vercel.app/"
+        ></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta
+          property="og:title"
+          content="All Too Welling Up To Midnight"
+        ></meta>
         <meta
           property="og:description"
-          content="How many times can you listen to the All Too Well 10 minute version
-          before Midnights launches?"
-        />
+          content="How many times can you listen to the All Too Well 10 minute version before the Midnights launch?"
+        ></meta>
         <meta
           property="og:image"
           content="https://all-too-welling-up-at-midnight.vercel.app/og.png"
-        />
+        ></meta>
 
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@" />
-        <meta name="twitter:title" content="All Too Welling Up at Midnight" />
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta
+          property="twitter:domain"
+          content="all-too-welling-up-at-midnight.vercel.app"
+        ></meta>
+        <meta
+          property="twitter:url"
+          content="https://all-too-welling-up-at-midnight.vercel.app/"
+        ></meta>
+        <meta
+          name="twitter:title"
+          content="All Too Welling Up To Midnight"
+        ></meta>
         <meta
           name="twitter:description"
-          content="How many times can you listen to the All Too Well 10 minute version
-          before Midnights launches?"
-        />
+          content="How many times can you listen to the All Too Well 10 minute version before the Midnights launch?"
+        ></meta>
         <meta
           name="twitter:image"
           content="https://all-too-welling-up-at-midnight.vercel.app/og.png"
-        />
+        ></meta>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
