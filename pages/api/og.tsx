@@ -1,16 +1,6 @@
 import { ImageResponse } from "@vercel/og";
 
-export const config = {
-  runtime: "experimental-edge",
-};
-
-const font = fetch(
-  new URL("../../assets/Helvetica-Bold.TTF", import.meta.url)
-).then((res) => res.arrayBuffer());
-
 async function OG() {
-  const fontData = await font;
-
   return new ImageResponse(
     (
       <div
@@ -43,13 +33,6 @@ async function OG() {
     {
       width: 1000,
       height: 600,
-      fonts: [
-        {
-          name: "Helvetica",
-          data: fontData,
-          style: "normal",
-        },
-      ],
     }
   );
 }
