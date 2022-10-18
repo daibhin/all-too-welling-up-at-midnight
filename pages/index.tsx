@@ -18,10 +18,30 @@ const Home: NextPage = () => {
           name="description"
           content="How many times can you listen to the All Too Well 10 minute version before the Midnights launch?"
         />
+        <meta property="og:title" content="All Too Welling Up at Midnight" />
+        <meta
+          property="og:description"
+          content="How many times can you listen to the All Too Well 10 minute version
+          before Midnights launches?"
+        />
         <meta
           property="og:image"
           content="https://all-too-welling-up-at-midnight.vercel.app/og.png"
         />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@" />
+        <meta name="twitter:title" content="All Too Welling Up at Midnight" />
+        <meta
+          name="twitter:description"
+          content="How many times can you listen to the All Too Well 10 minute version
+          before Midnights launches?"
+        />
+        <meta
+          name="twitter:image"
+          content="https://all-too-welling-up-at-midnight.vercel.app/og.png"
+        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
